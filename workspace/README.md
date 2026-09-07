@@ -20,5 +20,6 @@ Two rules:
 - **`jds/` is disposable, everything else accrues.** A teardown is wrong tomorrow and rerun; the
   question bank, the tech bank and the stories are what make the second interview cheaper than the first.
 
-Start with `facts/master.md`: paste your resume in, split it into facts, tag each one honestly, and
-confirm. That hour is the whole foundation.
+Start with the `intake` skill: paste your resume, keep or change the tag it proposes on each fact,
+answer the few numbered questions it asks (never more than eight, each with a recommended answer),
+and it writes only what you confirmed to `facts/master.md`. That hour is the whole foundation.

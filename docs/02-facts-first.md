@@ -31,8 +31,9 @@ is assembled from it.
 | `EXPOSURE` | You touched it, assisted, or watched it done; you cannot claim ownership | Only knowingly, and phrased as what it was |
 | `INTENT` | You want to; you have not | Never |
 
-The tag is proposed by whoever reads your old resume — a tool, a friend, you — and **confirmed by
-you**, once, per fact. An unconfirmed fact is a proposal and cannot be cited. This one screen of
+The tag is proposed by whoever reads your old resume — the `intake` skill, a friend, you — and
+**confirmed by you**, once, per fact. The skill then asks only what the resume left out, as numbered
+questions with a recommended answer each, and never more than eight. An unconfirmed fact is a proposal and cannot be cited. This one screen of
 checkboxes is the whole cost of the rule, and it is where most of the value is: the first time
 through, people discover that a third of their resume is `EXPOSURE` wearing `VERIFIED` language.
 

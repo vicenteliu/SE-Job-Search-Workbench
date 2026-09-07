@@ -28,7 +28,7 @@ defend, and then gets you ready to defend it.
 | Piece | What it does | Where |
 |---|---|---|
 | **The method** | six short pages: how resumes are screened, facts first, resume vs JD, questions by intent, practice | [`docs/`](docs/00-the-method.md) |
-| **Four skills** for [Claude Code](https://docs.anthropic.com/claude-code) | `jd-teardown` · `question-bank` · `tech-card` · `talk-track` — the agent reads *your* workspace and assembles; it never invents a claim | [`skills/`](skills/) |
+| **Five skills** for [Claude Code](https://docs.anthropic.com/claude-code) | `intake` · `jd-teardown` · `question-bank` · `tech-card` · `talk-track` — the agent reads *your* workspace and assembles; it never invents a claim | [`skills/`](skills/) |
 | **A workspace template** | the folder layout *is* the contract: facts, stories, JDs, tech cards, questions | [`workspace/`](workspace/) |
 | **`install.sh` / `check.sh`** | one-click install into your Claude Code; a check that says in one line whether your machine can run it | root |
 
@@ -43,7 +43,7 @@ Markers, not adjectives:
 | Marker | Claim |
 |---|---|
 | 🔨 | The method has run every interview of the author's own 2026 search — teardowns, question banks, talk tracks, spoken drills. |
-| 🔨 | The four skills are the author's own, with his private paths and content removed. Nothing here was written for this repository first and used second. |
+| 🔨 | Four of the five skills are the author's own, with his private paths and content removed. `intake` is the public form of the intake step his own tooling runs; it was written for this repository and has been run on the author's resume only. |
 | 🧭 | The workbench has been installed on the author's machine only. The first installs on other machines are what the setup service exists to do, and what `check.sh` is for. |
 | ⛔ | No live-interview assistance is part of this, sold with it, or described here. Practice is practice. |
 
@@ -63,7 +63,7 @@ WSL is untested — `check.sh` will say so, which is the honest answer.
 Then, inside Claude Code, in `~/workbench`:
 
 ```
-> read facts/master.md and tell me which facts are still unconfirmed
+> run intake on my resume          # it interviews you: numbered questions, a recommended answer each, ≤8
 > tear down jds/acme-sre/JD.md
 > file the questions from that teardown into the question bank
 > build a talk track for the Acme hiring-manager round

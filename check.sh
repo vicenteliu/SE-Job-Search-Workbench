@@ -38,7 +38,7 @@ if [ -n "${ANTHROPIC_API_KEY:-}" ]; then ok "ANTHROPIC_API_KEY is set (key not s
 [ "$agent" = 1 ] || bad "no Claude Code and no ANTHROPIC_API_KEY — install Claude Code (https://docs.anthropic.com/claude-code) or export a key"
 
 echo "== this checkout"
-for s in jd-teardown question-bank tech-card talk-track; do
+for s in intake jd-teardown question-bank tech-card talk-track; do
   [ -f "$HERE/skills/$s/SKILL.md" ] && ok "skills/$s" || bad "skills/$s/SKILL.md missing"
 done
 [ -f "$HERE/workspace/facts/master.md" ] && ok "workspace template" || bad "workspace template missing"

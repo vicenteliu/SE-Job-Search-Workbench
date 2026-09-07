@@ -37,7 +37,7 @@ fi
 if [ "$MODE" = "project" ]; then SK="$WB/.claude/skills"; else SK="$HOME/.claude/skills"; fi
 echo "== skills → $SK"
 mkdir -p "$SK"
-for s in jd-teardown question-bank tech-card talk-track; do
+for s in intake jd-teardown question-bank tech-card talk-track; do
   if [ -L "$SK/$s" ] || [ -e "$SK/$s" ]; then
     if [ -L "$SK/$s" ] && [ "$(readlink "$SK/$s")" = "$HERE/skills/$s" ]; then
       echo "   $s — already linked"
@@ -52,6 +52,7 @@ done
 cat <<MSG
 
 Done. Next, in Claude Code, from $WB:
-   > read facts/master.md and tell me which facts are still unconfirmed
-Fill facts/master.md first — that hour is the whole foundation (workspace/README.md).
+   > run intake on my resume
+It interviews you — a few numbered questions with a recommended answer each — and writes only
+the facts you confirmed. That hour is the whole foundation (workspace/README.md).
 MSG

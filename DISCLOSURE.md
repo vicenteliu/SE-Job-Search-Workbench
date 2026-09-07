@@ -5,12 +5,16 @@ of the extraction: **method crosses, content does not.**
 
 ## What crossed
 
-- The four skills (`jd-teardown`, `question-bank`, `tech-card`, `talk-track`), rewritten so that
+- Four skills (`jd-teardown`, `question-bank`, `tech-card`, `talk-track`), rewritten so that
   every path points into *your* workspace and every reference to the author's own facts, stories,
   employers, interviews and decision records is gone.
 - The workspace layout and the file formats (fact tags, question cards keyed by intent, tech cards
   with a retrieval surface, four-beat stories).
 - The reasoning in `docs/`, written fresh for a reader who is not the author.
+- The `intake` skill, written fresh for this repository: the public form of the intake step the
+  author's own tooling runs (propose a tag, the user confirms, ask only what is missing, eight
+  questions at most). Its interview format is borrowed from the author's own decision-grilling
+  habit — numbered questions, a recommended answer each, one round at a time.
 
 ## What did not cross
 
