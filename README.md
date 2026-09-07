@@ -44,7 +44,7 @@ Markers, not adjectives:
 |---|---|
 | 🔨 | The method has run every interview of the author's own 2026 search — teardowns, question banks, talk tracks, spoken drills. |
 | 🔨 | Four of the five skills are the author's own, with his private paths and content removed. Nothing in them was written for this repository first and used second. |
-| 🧭 | `intake` was written for this repository — the public form of the intake step the author's own tooling runs — and has **not yet been run end to end**. Its first run will be on the author's own resume, and this line changes when it has. |
+| 🔨 | `intake` was written for this repository — the public form of the intake step the author's own tooling runs — and was run end to end on the author's own resume on 2026-09-07: 56 proposals, 55 confirmed (44 `VERIFIED`, 11 `EXPOSURE`), two dropped as duplicates, seven questions asked. |
 | 🧭 | The workbench has been installed on the author's machine only. The first installs on other machines are what the setup service exists to do, and what `check.sh` is for. |
 | ⛔ | No live-interview assistance is part of this, sold with it, or described here. Practice is practice. |
 
